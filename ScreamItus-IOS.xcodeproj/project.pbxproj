@@ -13,6 +13,7 @@
 		058CD840233386850087E72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058CD83F233386850087E72C /* Assets.xcassets */; };
 		058CD843233386850087E72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058CD841233386850087E72C /* LaunchScreen.storyboard */; };
 		058CD84B233388BA0087E72C /* Infection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CD84A233388BA0087E72C /* Infection.swift */; };
+		C8B780612333D16900D010E5 /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B780602333D16900D010E5 /* Test1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		058CD842233386850087E72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058CD844233386850087E72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058CD84A233388BA0087E72C /* Infection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infection.swift; sourceTree = "<group>"; };
+		C8B780602333D16900D010E5 /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		058CD82C233386850087E72C = {
 			isa = PBXGroup;
 			children = (
+				C8B7805F2333D13100D010E5 /* UnitTests */,
 				058CD837233386850087E72C /* ScreamItus-IOS */,
 				058CD836233386850087E72C /* Products */,
 			);
@@ -65,6 +68,14 @@
 				058CD84A233388BA0087E72C /* Infection.swift */,
 			);
 			path = "ScreamItus-IOS";
+			sourceTree = "<group>";
+		};
+		C8B7805F2333D13100D010E5 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8B780602333D16900D010E5 /* Test1.swift */,
+			);
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				058CD83B233386850087E72C /* ViewController.swift in Sources */,
 				058CD84B233388BA0087E72C /* Infection.swift in Sources */,
 				058CD839233386850087E72C /* AppDelegate.swift in Sources */,
+				C8B780612333D16900D010E5 /* Test1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
